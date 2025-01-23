@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:/C:/Users/Administrator/Desktop/a/index.html -->
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JohnCh's Home: Articles</title>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<link rel="stylesheet" type="text/css" href="./css/postsStyles.css">
+		<link rel="stylesheet" type="text/css" href="./css/popup.css">
+		<style>
+			.article {
+				padding-bottom: 10px;
+				border-color: #333;
+				margin-bottom: 20px;
+				transition: .3s;
+			}
+			.article:hover {
+				padding-left: 20px;
+				transition: .3s;
+			}
+			.article h1 {
+				color: #315da1;
+			}
+			.article p {
+				color: #666;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="header">
+			<ul class="navbar">
+				<a href="index.html"><li>JohnCh's Home</li></a>
+				<a href="posts.html" class="navitem"><li>Articles</li></a>
+				<a><li class="goto">Goto</li></a>
+				<div class="popup goto-popup">
+					<a href="posts.html" class="popup-item folded-item">Articles</a>
+					<a href="about.html" class="popup-item folded-item">About Me</a>
+					<a class="popup-item" href="https://www.luogu.com.cn/user/1366636">Luogu</a>
+					<a class="popup-item" href="https://www.luogu.com.cn/team/95712">Group JustOI</a>
+				</div>
+				<a href="about.html" class="navitem"><li>About Me</li></a>
+			</ul>
+		</div>
+		
+		<div class="container fade-in">
+			<div class="filters">
+				<div class="search-box">
+					<input type="text" placeholder="Search for blogs..." onkeyup="searchBlogs()" id="search-input">
+				</div>
+				<div class="tags-dropdown">
+					<select id="tags-dropdown">
+						<option value="All">All Posts</option>
+						<option value="Technology">Technology</option>
+						<option value="Travel">Travel</option>
+						<option value="Lifestyle">Lifestyle</option>
+					</select>
+				</div>
+			</div>
+		
+			<a href="article2.html" style="color: #333 !important; text-decoration: auto;">
+			<article class="article">
+					<h1>Article Title</h1>
+					<li class="tag">Technology</li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+				</article>
+			</a>
+		</div>
+		
+		<div class="tools">
+			<button id="back-to-top"">↑</button>
+		</div>
+		
+	</body>
+	<script src="./js/find.js"></script>
+	<script src="./js/scroll.js"></script>
+	<script src="./js/popup.js"></script>
+</html>
