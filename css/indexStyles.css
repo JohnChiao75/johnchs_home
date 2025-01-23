@@ -1,0 +1,31 @@
+.cards {
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+.left-card {
+    background: linear-gradient(45deg, #5e3be8, #3967eb);
+    padding-top: 100px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    transition: .3s;
+    text-align: left;
+    text-decoration: underline;
+    display: grid;
+}	
+
+.left-card:hover {
+    box-shadow: 0px 4px 10px 3px #00172db0;
+    transition: .3s;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.icon {
+	width: 40px;
+}

@@ -1,0 +1,34 @@
+#comments-section {
+	margin-left: 10px;
+}
+
+.comment-box {
+	border-width: 3px;
+	border-style: solid !important;
+	border-color: #116dbf;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 40px;
+}
+.btnsubmit {
+	border-width: 3px;
+	border-style: solid !important;
+	border-color: #116dbf;
+	color: #116dbf;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 40px;
+	background: white;	
+	transition: .3s;
+}
+.btnsubmit:hover {
+	color: white;
+	background: #116dbf;	
+	transition: .3s;
+}
+#comment-form {
+	display: flex;
+}
+#comment-text {
+	flex-grow: 1;
+}

@@ -1,0 +1,49 @@
+.filters {
+	display: flex;
+}
+.search-box {
+	margin-bottom: 20px;
+	display: flex;
+	transition: .3s;
+}
+.search-box input {
+	background-color: white;
+	color: #116dbf;
+	border-width: 1px;
+	border: solid !important;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 40px;
+	transition: .3s;
+	display: flex;
+}
+.tags {
+	list-style-type: none;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.tags-dropdown {
+	display: block; /* 显示下拉框 */
+}
+
+.tags-dropdown select {
+	padding: 10px; /* 添加一些内边距 */
+	color: #116dbf;
+	border-width: 1px;
+	border: solid;
+	appearance: none; /* 移除默认样式 */
+	border-radius: 40px;
+}
+
+}
+.tags li, .tag {
+	display: inline;
+	margin-right: 10px;	
+	background-color: #f0f0f0;
+	padding: 5px 10px;
+	border-radius: 40px;	
+}
+.tags li:hover {
+	background-color: #e0e0e0;
+}
