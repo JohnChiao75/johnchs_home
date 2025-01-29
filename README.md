@@ -1,5 +1,5 @@
 # JohnCh's Home
 
-## Website [Enter](johnchiao75.github.io/johnchs_home)
+## Website [Enter](johnch.pages.dev)
 
-## Deployed with GitHub Pages
+## Deployed with Cloudflare
